@@ -1,0 +1,33 @@
+.search-control{
+    display: inline;
+}
+.search-form{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+}
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    outline: none;
+    border-style: none;
+    margin-top: 0.8rem;
+    background-color: rgb(206, 204, 204);
+}
+.error{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    
+}
+@media screen and (max-width:800px){
+    .search-form{
+        display: inline;
+    }
+    input{
+        width: 200px;
+        height: 30px;
+    }
+  
+}

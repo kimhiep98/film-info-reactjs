@@ -1,0 +1,12 @@
+main{
+    width: auto;
+    height: auto;
+    text-align: center;
+    }
+h1{
+    font-size: 3rem;
+    background: rgba(38, 38, 41, 0.671);
+    background-clip: border-box;  
+    padding: 1.5rem;
+    margin-top: 0;
+}
